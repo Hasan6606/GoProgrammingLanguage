@@ -1,0 +1,40 @@
+package main
+
+import (
+	"firstmodule/mathexp"
+	"fmt"
+)
+
+//I am Hasan who is the 4th grade students at Gazi University.
+//I have referanced coursed by MR. Demirog at ITA Academy.
+
+func main() {
+
+	//First App like fundamentals of learning programming language
+	// if you print any material such as variable,text . First of all, you can import line 3.
+	//After that fmt.Println(variable,"printing text variable")
+	//fmt.Println("You can write text or your variable up here :)")
+
+	//Example-1 Finding Root
+	//if I have a equation which is called "(a*x^2)+(b*x)+c" and wanted root(s) this equation.
+	//First of all, parameters of a,b,c attend to discriminant equation disc=(b*b)-(4*a*c)
+
+	//if disc is biger than zero. This equation have different two roots.
+	//if disc is equal to zero. This equation have same two roots.
+	//if disc is less than zero that mean . This equation have different two roots.
+
+	//I have taken variables which are a,b,c by users.
+	//After that,I have attend these on the FirstExample() function.
+
+	var firstVariable int16
+	var secondVariable int16
+	var thirdVariable int16
+	fmt.Println("a*x^2+b*x+c please enter variables which are a,b,c as ordered:")
+	fmt.Scanln(&firstVariable)
+	fmt.Println("Enter b value:")
+	fmt.Scanln(&secondVariable)
+	fmt.Println("Enter c value:")
+	fmt.Scanln(&thirdVariable)
+
+	mathexp.FirstExample(firstVariable, secondVariable, thirdVariable)
+}
