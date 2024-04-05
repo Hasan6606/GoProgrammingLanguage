@@ -37,4 +37,20 @@ func main() {
 	fmt.Scanln(&thirdVariable)
 
 	mathexp.FirstExample(firstVariable, secondVariable, thirdVariable)
+	**/
+
+	//Exampe-2:Calculating Factorial Number
+	// Factorial number formula  4!=4*3*2*1 when if you enter 0 . The result is equal to 1.
+	//First of all, A number is taking by user.
+	//After that, Factorial number was calculated by Factorial number as Recursive Function Method.
+	//Define variable as taking a number by users.
+	var facNumber int32
+	//Printed a message on the display.
+	fmt.Println("Hello,please enter number for calculating factorial variable:")
+	//Defined number on the facNumber variable.
+	fmt.Scanln(&facNumber)
+	//Defined the result in the "result" variable
+	result := recursive.Factorial(int32(facNumber))
+	//Printed the Result on the display
+	fmt.Println(result)
 }
