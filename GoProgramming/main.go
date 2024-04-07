@@ -8,6 +8,9 @@ import (
 
 //I am Hasan who is the 4th grade students at Gazi University.
 //I have referanced coursed by MR. Demirog at ITA Academy.
+//I hope it will be helpful effect it.
+//If you have any question. you can send a mail or contacted communication with the Linkedln.
+
 
 func main() {
 
