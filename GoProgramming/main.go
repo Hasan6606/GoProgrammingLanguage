@@ -2,7 +2,7 @@ package main
 
 import (
 	"firstmodule/mathexp" //Define structure of module which is calle "mathexp" 
-	"fmt"
+	"fmt"     //Define fmt module because of fact that printed or taking variable by user.
 	"firstmodule/recursive" //Define structure of module which is calle "recursive" 
 )
 
