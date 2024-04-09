@@ -1,7 +1,7 @@
 package main
 
 import (
-	"firstmodule/mathexp" //Define structure of module which is calle "mathexp" 
+	//"firstmodule/mathexp" //Define structure of module which is calle "mathexp" 
 	"fmt"     //Define fmt module because of fact that printed or taking variable by user.
 	"firstmodule/recursive" //Define structure of module which is calle "recursive" 
 )
@@ -42,7 +42,7 @@ func main() {
 
 	mathexp.FirstExample(firstVariable, secondVariable, thirdVariable)
 	**/
-
+	/**
 	//Exampe-2:Calculating Factorial Number
 	// Factorial number formula  4!=4*3*2*1 when if you enter 0 . The result is equal to 1.
 	//First of all, A number is taking by user.
@@ -57,4 +57,5 @@ func main() {
 	result := recursive.Factorial(int32(facNumber))
 	//Printed the Result on the display
 	fmt.Println(result)
+ 	**/
 }
