@@ -1,4 +1,5 @@
 package loop
+import "fmt"
 
 func FindBruteForceAlgorithm(setOfArray []int, number int) {
 	var iterationNumber int = 1
