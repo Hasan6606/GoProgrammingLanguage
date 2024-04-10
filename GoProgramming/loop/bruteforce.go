@@ -1,10 +1,12 @@
 package loop
 
 func FindBruteForceAlgorithm(setOfArray []int, number int) {
+	var iterationNumber int = 1
 	for i := 0; i < len(setOfArray); i++ {
-		var iterationNumber int = 0
+
 		if setOfArray[i] == number {
-			iterationNumber++
+			fmt.Println("Researched number: ", setOfArray[i], " ", "Iteratıon number: ", iterationNumber)
 		}
+		iterationNumber++
 	}
 }
