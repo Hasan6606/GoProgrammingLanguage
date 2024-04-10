@@ -68,16 +68,20 @@ func main() {
 
 	//Example-3 Finding an element of arrays as brute force algorithm
 	var lenOfArray int
-	var paramArray []int 
+	paramArray := make([]int, lenOfArray)
 	fmt.Println("Enter the len of array:")
 	fmt.Scanln(&lenOfArray)
-	for i := 1; i <lenOfArray; i++ {
-		fmt.Println("Enter value of ",i," elements:")
+	for i := 1; i < lenOfArray; i++ {
+		fmt.Println("Enter value of ", i, " elements:")
 		fmt.Scanln(&paramArray[i-1])
 	}
-	fmt.Printlm("Enter researched number on array:")
+	fmt.Println("Enter researched number on array:")
 	var resNum int
 	fmt.Scanln(&resNum)
-	result:=loop.FindBruteForceAlgorithm(paramArray[], resNum)
-	fmt.Println(result)
+	result := loop.FindBruteForceAlgorithm(paramArray, resNum)
+	if result {
+		fmt.Println("The elements have founded by brute force algorithm")
+	} else {
+		fmt.Println("The element could not found")
+	}
 }
