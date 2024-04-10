@@ -65,6 +65,8 @@ func main() {
 	fmt.Println(result)
  	**/
 
+
+	//Example-3 Finding an element of arrays as brute force algorithm
 	var lenOfArray int
 	var paramArray []int 
 	fmt.Println("Enter the len of array:")
