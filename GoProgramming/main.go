@@ -64,4 +64,18 @@ func main() {
 	//Printed the Result on the display
 	fmt.Println(result)
  	**/
+
+	var lenOfArray int
+	var paramArray []int 
+	fmt.Println("Enter the len of array:")
+	fmt.Scanln(&lenOfArray)
+	for i := 1; i <lenOfArray; i++ {
+		fmt.Println("Enter value of ",i," elements:")
+		fmt.Scanln(&paramArray[i-1])
+	}
+	fmt.Printlm("Enter researched number on array:")
+	var resNum int
+	fmt.Scanln(&resNum)
+	result:=loop.FindBruteForceAlgorithm(paramArray[], resNum)
+	fmt.Println(result)
 }
